@@ -1,19 +1,10 @@
 #include <iostream>
 #include <unordered_map>
 #include <string>
+#include "Calculator.h"
 
 using namespace std;
 
-class Calculator{
-    public:
-    int add(int a, int b){ return a + b;}
-    int sub(int a, int b){ return a - b; }
-    int divide(int a, int b){if(b != 0){return a / b;}else{cout << "Can't divide by 0" <<endl;return 0;}}
-    int multiply(int a, int b){return a * b;}
-    int modulus(int a, int b){if(b != 0){return a % b;} else {cout << "b can't be 0!";return 0;}
-    }
-
-};
 
 int main(){
     Calculator calculator;
