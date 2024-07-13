@@ -39,8 +39,10 @@ func main(){
 
 	fmt.Print("Enter first integer: ")
 	fmt.Scan(&a)
+	fmt.Println()
 	fmt.Print("Enter Second integer: ")
 	fmt.Scan(&b)
+	fmt.Println()
 	fmt.Print("Enter option from the selections below:\nAdd: Enter add\nSubtract: Enter sub\nMultiply: Enter mult\nDivide: Enter div\nModulus/Remainder: Enter mod\nOption:")
 	fmt.Scanln(&opt)
 	switch opts_map[opt] {
